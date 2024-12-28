@@ -7,6 +7,7 @@ func _ready() -> void:
 	LensColor.change_lens(LensColor.LENS_COLOR.RED)
 	$Background/StaticSprite/StaticAnim.play("static")
 	door.set_next_level("res://levels/Level7.tscn")
+	LastLevelUpdater.set_last_level("res://levels/Level6.tscn")
 
 	#TODO: add door
 

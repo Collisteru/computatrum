@@ -2,7 +2,6 @@ extends Node2D
 
 @export var font_resource: Font
 
-
 const FONT_SIZE = 16
 var viewport_size = 0
 var matrix = []
@@ -97,3 +96,9 @@ func _on_exit_pressed() -> void:
 
 func _on_title_pressed() -> void:
 	get_tree().change_scene_to_file("res://screens/title/title.tscn")
+
+
+func _on_retry_pressed() -> void:
+	print(LastLevelUpdater.get_last_level())
+	get_tree().change_scene_to_file(LastLevelUpdater.get_last_level())
+	pass # Replace with function body.

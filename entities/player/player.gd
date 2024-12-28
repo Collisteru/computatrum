@@ -1,7 +1,5 @@
 extends CharacterBody2D
 
-#signal lens_changed(c: LensColor.LENS_COLOR)
-
 const SPEED = 300.0
 const ACCELERATION = 30.0
 var player_is_alive
@@ -257,6 +255,7 @@ func die(_camera = player_camera) -> void:
 
 	tree.change_scene_to_file("res://screens/lose/lose.tscn")
 	#tree.change_scene_to_file("res://levels/Shield Intro Vic/Shielder Intro.tscn")
+	
 
 func _physics_process(_delta: float) -> void:
 	##get the viewport size and divide by 2 since this is where the camera is positioned
