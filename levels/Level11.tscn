@@ -1,6 +1,5 @@
 [gd_scene load_steps=70 format=4 uid="uid://be66yfl71qd4a"]
 
-<<<<<<<< HEAD:levels/Level11.tscn
 [ext_resource type="Script" path="res://levels/level_11.gd" id="1_1a5un"]
 [ext_resource type="Texture2D" uid="uid://bv2qyppsu87nx" path="res://assets/tv_static-Sheet-Sheet.png" id="2_1x7v7"]
 [ext_resource type="Texture2D" uid="uid://cbo3dufbdowd8" path="res://assets/gray_floor.jpg" id="3_xe3xi"]
@@ -15,22 +14,6 @@
 [ext_resource type="PackedScene" uid="uid://clo3n4jlqqkgd" path="res://entities/charger/charger.tscn" id="12_n2rea"]
 [ext_resource type="PackedScene" uid="uid://dfpaw4les5y2i" path="res://entities/guard/guard_enemy.tscn" id="13_5wddb"]
 [ext_resource type="PackedScene" uid="uid://6es4h5dybpbn" path="res://entities/crawler/crawler.tscn" id="14_bmhb5"]
-========
-[ext_resource type="Script" path="res://levels/Shield Intro/shielder_intro.gd" id="1_4jhaf"]
-[ext_resource type="Texture2D" uid="uid://bv2qyppsu87nx" path="res://assets/tv_static-Sheet-Sheet.png" id="2_stnkr"]
-[ext_resource type="Texture2D" uid="uid://cbo3dufbdowd8" path="res://assets/gray_floor.jpg" id="3_o70qr"]
-[ext_resource type="Texture2D" uid="uid://bt1pmc08pso4u" path="res://assets/tile_gray.png" id="4_5v8q6"]
-[ext_resource type="Texture2D" uid="uid://cl4x3y76qhdoe" path="res://assets/tile_blue.png" id="5_lqjs6"]
-[ext_resource type="Texture2D" uid="uid://myuoyichq1rb" path="res://assets/tile_red.png" id="6_irgxt"]
-[ext_resource type="Texture2D" uid="uid://c63le1iwj280a" path="res://assets/tile_green.png" id="7_5u8nc"]
-[ext_resource type="PackedScene" uid="uid://dpw0dvtius7nn" path="res://entities/player/player.tscn" id="8_q56hh"]
-[ext_resource type="PackedScene" uid="uid://5we3eofv6eq4" path="res://entities/door/door.tscn" id="9_ykcho"]
-[ext_resource type="Script" path="res://levels/background_filter.gd" id="10_n8iqv"]
-[ext_resource type="PackedScene" uid="uid://dw87ms7bbikhk" path="res://entities/shielder/shielder.tscn" id="11_bpsji"]
-[ext_resource type="PackedScene" uid="uid://clo3n4jlqqkgd" path="res://entities/charger/charger.tscn" id="12_ov1h8"]
-[ext_resource type="PackedScene" uid="uid://dfpaw4les5y2i" path="res://entities/guard/guard_enemy.tscn" id="13_n46n7"]
-[ext_resource type="PackedScene" uid="uid://6es4h5dybpbn" path="res://entities/crawler/crawler.tscn" id="14_n7hhj"]
->>>>>>>> pure-and-untouched-by-evil-merges-retry-button:levels/Shield Intro/Shielder Intro.tscn
 
 [sub_resource type="Animation" id="Animation_0khet"]
 length = 0.001
