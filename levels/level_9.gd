@@ -6,7 +6,6 @@ extends Node2D
 func _ready() -> void:
 	LensColor.change_lens(LensColor.LENS_COLOR.RED)
 	$Background/StaticSprite/StaticAnim.play("static")
-	LastLevelUpdater.set_last_level("res://levels/Level9.tscn")
 
 	door.set_next_level("res://levels/Shield Intro Vic/Shielder Intro.tscn")
 
